@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-image: url(images/bg-hero-desktop.svg);
+  background-color: hsl(193, 100%, 96%);
+  height: 88vh;
+  width: 100%;
+}
+nav {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px;
+}
+nav img {
+  width: 120px;
+  height: 18px;
+}
+nav button {
+  border: none;
+  padding: 8px 30px;
+  border-radius: 20px;
+  color: hsl(192, 100%, 9%);
+  background: white;
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 68vh;
+  padding-top: 20px;
+}
+.head-left {
+  width: 35%;
+}
+.head-left h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: hsl(192, 100%, 9%);
+}
+.head-left p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  padding: 20px 0px 15px 0px;
+  color: hsl(192, 100%, 9%);
+}
+.head-left button {
+  border: none;
+  border-radius: 20px;
+  margin: 10px 0px;
+  padding: 12px 28px;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  cursor: pointer;
+}
+.head-right {
+  width: 55%;
+}
+.head-right img {
+  width: 610px;
+  margin-left: 40px;
+}
+main {
+  display: flex;
+  width: 90%;
+  margin: 90px 5%;
+  flex-direction: column;
+}
+.card {
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 2px 4px 2px rgba(173, 170, 170, 0.2);
+  padding: 3px 25px;
+  margin: 30px auto;
+  border-radius: 10px;
+  height: 300px;
+}
+.card h3 {
+  font-family: "Poppins", sans-serif;
+  color: hsl(192, 100%, 9%);
+}
+.card p {
+  font-family: "Open Sans", sans-serif;
+  color: hsl(208, 11%, 55%);
+  font-size: 15px;
+}
+.x1 {
+  width: 60%;
+  padding-left: 40px;
+}
+.x1 p {
+  padding-top: 20px;
+}
+
+.y1 {
+  width: 40%;
+}
+.y1 img {
+  width: 300px;
+  margin-left: 100px;
+}
+.x2 {
+  width: 100%;
+  padding-left: 40px;
+}
+.x2 img {
+  width: 300px;
+}
+.y2 {
+  width: 100%;
+}
+.y2 p {
+  padding-top: 20px;
+}
+.x3 {
+  width: 60%;
+  padding-left: 40px;
+}
+.x3 p {
+  padding-top: 20px;
+}
+.y3 {
+  width: 40%;
+}
+.y3 img {
+  width: 300px;
+  margin-left: 100px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 40px 50px;
+  position: relative;
+  top: 15vh;
+  z-index: 1;
+  box-shadow: 1px 2px 4px 2px rgba(173, 170, 170, 0.5);
+}
+section h2 {
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 10px;
+}
+section button {
+  border: none;
+  border-radius: 25px;
+  margin: 10px 0px;
+  padding: 18px 55px;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  cursor: pointer;
+  box-shadow: 1px 2px 4px 2px rgba(173, 170, 170, 0.5);
+  font-family: "Open Sans" sans-serif;
+  font-weight: 700;
+}
+footer {
+  background-color: hsl(192, 100%, 9%);
+  color: #fff;
+  width: 100%;
+  height: 400px;
+}
+.footer-container {
+  display: flex;
+  width: 100%;
+  margin: 120px auto 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px auto;
+}
+ul li {
+  list-style: none;
+}
+
+.meta1 div {
+  display: flex;
+  padding: 10px;
+  gap: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
+.div1 img {
+  width: 10px;
+  height: 15px;
+  margin-top: 4px;
+}
+.div2 img {
+  width: 10px;
+
+  margin-top: 4px;
+}
+.div3 img {
+  width: 12px;
+  height: 12px;
+  margin-top: 6px;
+}
+.meta2 ul li {
+  padding-bottom: 18px;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-weight: 100;
+}
+.meta3 ul li {
+  padding-bottom: 18px;
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  font-weight: 100;
+}
+footer > p {
+  margin-left: 75%;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+}
+.social {
+  color: #fff;
+}
