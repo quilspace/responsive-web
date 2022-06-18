@@ -241,8 +241,9 @@ footer > p {
 .social {
   color: #fff;
 }
-i {
+.social img {
   margin: 8px;
+  width: 20px;
 }
 @media screen and (max-width: 375px) {
   header {
