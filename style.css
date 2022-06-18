@@ -177,11 +177,20 @@ footer {
   color: #fff;
   width: 100%;
   height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+}
+.imgdiv {
+  margin-left: 7%;
+  padding-bottom: 10px;
+}
+.imgdiv img {
+  width: 150px;
 }
 .footer-container {
   display: flex;
   width: 100%;
-  margin: 120px auto 0 auto;
   justify-content: space-around;
   align-items: center;
   padding: 50px auto;
@@ -231,4 +240,7 @@ footer > p {
 }
 .social {
   color: #fff;
+}
+i {
+  margin: 8px;
 }
