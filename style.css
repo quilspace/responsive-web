@@ -244,3 +244,134 @@ footer > p {
 i {
   margin: 8px;
 }
+@media screen and (max-width: 375px) {
+  header {
+    background-image: url(images/bg-hero-mobile.svg);
+    background-color: hsl(193, 100%, 96%);
+    height: 115vh;
+    width: 100%;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 105vh;
+  }
+  .head-left {
+    width: 100%;
+    text-align: center;
+  }
+  .head-left p {
+    font-size: 18px;
+  }
+  .head-left button {
+    padding: 20px 70px;
+  }
+  .head-right {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .head-right img {
+    width: 300px;
+    margin: 5%;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 4px 2px rgba(173, 170, 170, 0.2);
+
+    margin: 30px auto;
+    border-radius: 10px;
+    height: 600px;
+  }
+  .x1 {
+    width: 100%;
+    margin-left: -15%;
+  }
+  .x1 p {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .x1 h3 {
+    text-align: center;
+  }
+
+  .y1 {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .y1 img {
+    margin-left: -3%;
+  }
+
+  .x2 {
+    width: 100%;
+  }
+  .x2 img {
+    margin-left: -19%;
+  }
+  .y2 {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .y2 p {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .y2 h3 {
+    text-align: center;
+  }
+  .x3 {
+    width: 100%;
+    margin-left: -15%;
+  }
+  .x3 p {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .x3 h3 {
+    text-align: center;
+  }
+
+  .y3 {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .y3 img {
+    margin-left: -3%;
+  }
+  section {
+    width: 90%;
+    padding: 20px 30px;
+  }
+  section h2 {
+    text-align: center;
+  }
+  footer {
+    height: 700px;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px auto;
+  }
+  .meta2 {
+    margin-top: 30px;
+  }
+  .meta2,
+  .meta3 {
+    margin-left: -75%;
+  }
+  footer > p {
+    margin-left: 15%;
+    padding-top: 20px;
+  }
+}
