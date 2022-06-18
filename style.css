@@ -280,15 +280,17 @@ footer > p {
   }
   .card {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 100%;
     justify-content: center;
     align-items: center;
     box-shadow: 1px 2px 4px 2px rgba(173, 170, 170, 0.2);
-
     margin: 30px auto;
     border-radius: 10px;
-    height: 600px;
+    height: 500px;
+  }
+  #c2 {
+    flex-direction: column;
   }
   .x1 {
     width: 100%;
@@ -300,11 +302,11 @@ footer > p {
   }
   .x1 h3 {
     text-align: center;
+    padding-top: 35px;
   }
 
   .y1 {
     width: 100%;
-    padding-top: 30px;
   }
   .y1 img {
     margin-left: -3%;
@@ -337,6 +339,7 @@ footer > p {
   }
   .x3 h3 {
     text-align: center;
+    padding-top: 35px;
   }
 
   .y3 {
